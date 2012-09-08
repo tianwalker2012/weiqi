@@ -7,6 +7,7 @@
 //
 
 #import "cocos2d.h"
+#import "EZBoardStatus.h"
 
 #define FloatingZOrder 100
 #define FixedZOrder 15
@@ -19,7 +20,7 @@
 //This is like a UI for all the lay button funtionality.
 //For current stage, I will put all the logic here, later I will refactor them 
 //Out to place suitable for them.
-@interface EZBoard : CCLayer<CCTouchDelegate>
+@interface EZBoard : CCLayer<CCTouchDelegate, EZBoardFront>
 
 +(CCScene *) scene;
 

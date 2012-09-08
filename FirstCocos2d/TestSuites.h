@@ -10,4 +10,7 @@
 
 @interface TestSuites : NSObject
 
+
++ (void) runAllTests;
+
 @end

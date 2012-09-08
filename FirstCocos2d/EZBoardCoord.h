@@ -16,4 +16,11 @@
 
 - (id) init:(short)width height:(short)height;
 
+//Can be stored as a short or convert from short
++ (id) fromNumber:(short)val;
+
+- (short) toNumber;
+
+- (NSString*) getKey;
+
 @end

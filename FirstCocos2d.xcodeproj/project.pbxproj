@@ -144,9 +144,17 @@
 		18940FE715F5E6B700CAAC3E /* white-btn-pad.png in Resources */ = {isa = PBXBuildFile; fileRef = 18940FE615F5E6B600CAAC3E /* white-btn-pad.png */; };
 		18940FE915F5E6DB00CAAC3E /* white-btn-pad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18940FE815F5E6DA00CAAC3E /* white-btn-pad@2x.png */; };
 		18DEEB4015F6393F00A233E9 /* libarclite_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DEEB3F15F6393E00A233E9 /* libarclite_iphoneos.a */; };
-		18DEEB4315F63FCF00A233E9 /* EZBoardStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB4215F63FCF00A233E9 /* EZBoardStatus.m */; settings = {COMPILER_FLAGS = "-fobj-arc"; }; };
-		18DEEB4615F6463700A233E9 /* EZBoardCoord.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB4515F6463700A233E9 /* EZBoardCoord.m */; };
-		18DEEB4A15F6F0CB00A233E9 /* TestSuites.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB4915F6F0CB00A233E9 /* TestSuites.m */; };
+		18DEEB4315F63FCF00A233E9 /* EZBoardStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB4215F63FCF00A233E9 /* EZBoardStatus.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		18DEEB4615F6463700A233E9 /* EZBoardCoord.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB4515F6463700A233E9 /* EZBoardCoord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		18DEEB4A15F6F0CB00A233E9 /* TestSuites.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB4915F6F0CB00A233E9 /* TestSuites.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		18DEEB4D15F7383000A233E9 /* EZChessPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB4C15F7383000A233E9 /* EZChessPosition.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		18DEEB5415F8487C00A233E9 /* EZResponsiveRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB5315F8487B00A233E9 /* EZResponsiveRegion.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		18DEEB5F15F8A2EE00A233E9 /* EZGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB5E15F8A2EE00A233E9 /* EZGameManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		18DEEB6215F8ABD900A233E9 /* chess-plant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DEEB6115F8ABD900A233E9 /* chess-plant.wav */; };
+		18DEEB6415F8B44700A233E9 /* enemy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DEEB6315F8B44700A233E9 /* enemy.wav */; };
+		18DEEB6915F8E7D900A233E9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DEEB6815F8E7D800A233E9 /* libz.dylib */; };
+		18DEEB8415F9DB9600A233E9 /* EZSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DEEB8315F9DB9600A233E9 /* EZSoundManager.m */; };
+		18DEEB8615F9DCD400A233E9 /* 22k_viking_punchingV1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DEEB8515F9DCD400A233E9 /* 22k_viking_punchingV1.wav */; };
 		18F510A815F5FB5400E6D82A /* EZTouchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F510A715F5FB5400E6D82A /* EZTouchHelper.m */; };
 		18F510AC15F6006C00E6D82A /* EZBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F510AB15F6006C00E6D82A /* EZBoard.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 /* End PBXBuildFile section */
@@ -431,6 +439,18 @@
 		18DEEB4515F6463700A233E9 /* EZBoardCoord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBoardCoord.m; sourceTree = "<group>"; };
 		18DEEB4815F6F0CB00A233E9 /* TestSuites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSuites.h; sourceTree = "<group>"; };
 		18DEEB4915F6F0CB00A233E9 /* TestSuites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSuites.m; sourceTree = "<group>"; };
+		18DEEB4B15F7383000A233E9 /* EZChessPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZChessPosition.h; sourceTree = "<group>"; };
+		18DEEB4C15F7383000A233E9 /* EZChessPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZChessPosition.m; sourceTree = "<group>"; };
+		18DEEB5215F8487A00A233E9 /* EZResponsiveRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZResponsiveRegion.h; sourceTree = "<group>"; };
+		18DEEB5315F8487B00A233E9 /* EZResponsiveRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZResponsiveRegion.m; sourceTree = "<group>"; };
+		18DEEB5D15F8A2EE00A233E9 /* EZGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZGameManager.h; sourceTree = "<group>"; };
+		18DEEB5E15F8A2EE00A233E9 /* EZGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZGameManager.m; sourceTree = "<group>"; };
+		18DEEB6115F8ABD900A233E9 /* chess-plant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "chess-plant.wav"; path = "../../../../audio_effects/chess-plant.wav"; sourceTree = "<group>"; };
+		18DEEB6315F8B44700A233E9 /* enemy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enemy.wav; sourceTree = "<group>"; };
+		18DEEB6815F8E7D800A233E9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		18DEEB8215F9DB8D00A233E9 /* EZSoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZSoundManager.h; sourceTree = "<group>"; };
+		18DEEB8315F9DB9600A233E9 /* EZSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSoundManager.m; sourceTree = "<group>"; };
+		18DEEB8515F9DCD400A233E9 /* 22k_viking_punchingV1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 22k_viking_punchingV1.wav; sourceTree = "<group>"; };
 		18F510A115F5F1ED00E6D82A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		18F510A615F5FB5400E6D82A /* EZTouchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTouchHelper.h; sourceTree = "<group>"; };
 		18F510A715F5FB5400E6D82A /* EZTouchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTouchHelper.m; sourceTree = "<group>"; };
@@ -444,10 +464,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DEEB6915F8E7D900A233E9 /* libz.dylib in Frameworks */,
+				189409E815F4909700CAAC3E /* OpenAL.framework in Frameworks */,
 				18DEEB4015F6393F00A233E9 /* libarclite_iphoneos.a in Frameworks */,
 				189409E415F4909700CAAC3E /* QuartzCore.framework in Frameworks */,
 				189409E615F4909700CAAC3E /* OpenGLES.framework in Frameworks */,
-				189409E815F4909700CAAC3E /* OpenAL.framework in Frameworks */,
 				189409EA15F4909700CAAC3E /* AudioToolbox.framework in Frameworks */,
 				189409EC15F4909700CAAC3E /* AVFoundation.framework in Frameworks */,
 				189409EE15F4909700CAAC3E /* UIKit.framework in Frameworks */,
@@ -463,6 +484,7 @@
 		189409D415F4909600CAAC3E = {
 			isa = PBXGroup;
 			children = (
+				18DEEB6815F8E7D800A233E9 /* libz.dylib */,
 				18DEEB3F15F6393E00A233E9 /* libarclite_iphoneos.a */,
 				189409F515F4909700CAAC3E /* Go Pattern trainning */,
 				189409E215F4909700CAAC3E /* Frameworks */,
@@ -518,6 +540,7 @@
 		189409F615F4909700CAAC3E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18DEEB6015F8ABBF00A233E9 /* sounds */,
 				18940FE815F5E6DA00CAAC3E /* white-btn-pad@2x.png */,
 				18940FE615F5E6B600CAAC3E /* white-btn-pad.png */,
 				18940FE415F5E6A100CAAC3E /* black-btn-pad@2x.png */,
@@ -897,11 +920,25 @@
 			name = "Test cases";
 			sourceTree = "<group>";
 		};
+		18DEEB6015F8ABBF00A233E9 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				18DEEB8515F9DCD400A233E9 /* 22k_viking_punchingV1.wav */,
+				18DEEB6315F8B44700A233E9 /* enemy.wav */,
+				18DEEB6115F8ABD900A233E9 /* chess-plant.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
 		18F5109A15F5ED1700E6D82A /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				18DEEB8315F9DB9600A233E9 /* EZSoundManager.m */,
+				18DEEB8215F9DB8D00A233E9 /* EZSoundManager.h */,
 				18F510A615F5FB5400E6D82A /* EZTouchHelper.h */,
 				18F510A715F5FB5400E6D82A /* EZTouchHelper.m */,
+				18DEEB5D15F8A2EE00A233E9 /* EZGameManager.h */,
+				18DEEB5E15F8A2EE00A233E9 /* EZGameManager.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -924,6 +961,10 @@
 				18DEEB4215F63FCF00A233E9 /* EZBoardStatus.m */,
 				18DEEB4415F6463700A233E9 /* EZBoardCoord.h */,
 				18DEEB4515F6463700A233E9 /* EZBoardCoord.m */,
+				18DEEB4B15F7383000A233E9 /* EZChessPosition.h */,
+				18DEEB4C15F7383000A233E9 /* EZChessPosition.m */,
+				18DEEB5215F8487A00A233E9 /* EZResponsiveRegion.h */,
+				18DEEB5315F8487B00A233E9 /* EZResponsiveRegion.m */,
 			);
 			name = Layers;
 			sourceTree = "<group>";
@@ -1001,6 +1042,9 @@
 				18940FE515F5E6A100CAAC3E /* black-btn-pad@2x.png in Resources */,
 				18940FE715F5E6B700CAAC3E /* white-btn-pad.png in Resources */,
 				18940FE915F5E6DB00CAAC3E /* white-btn-pad@2x.png in Resources */,
+				18DEEB6215F8ABD900A233E9 /* chess-plant.wav in Resources */,
+				18DEEB6415F8B44700A233E9 /* enemy.wav in Resources */,
+				18DEEB8615F9DCD400A233E9 /* 22k_viking_punchingV1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,6 +1164,10 @@
 				18DEEB4315F63FCF00A233E9 /* EZBoardStatus.m in Sources */,
 				18DEEB4615F6463700A233E9 /* EZBoardCoord.m in Sources */,
 				18DEEB4A15F6F0CB00A233E9 /* TestSuites.m in Sources */,
+				18DEEB4D15F7383000A233E9 /* EZChessPosition.m in Sources */,
+				18DEEB5415F8487C00A233E9 /* EZResponsiveRegion.m in Sources */,
+				18DEEB5F15F8A2EE00A233E9 /* EZGameManager.m in Sources */,
+				18DEEB8415F9DB9600A233E9 /* EZSoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

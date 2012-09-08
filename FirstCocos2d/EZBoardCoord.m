@@ -22,5 +22,25 @@
     return self;
 }
 
+- (NSString*) description
+{
+    return [NSString stringWithFormat:@"width:%i, height:%i",width ,height];
+}
+
+//Can be stored as a short or convert from short
++ (id) fromNumber:(short)val
+{
+    return [[EZBoardCoord alloc] init:(val >> 8) height:val & 0xff];
+}
+
+- (short) toNumber
+{
+    return (width << 8) + height;
+}
+
+- (NSString*) getKey
+{
+    return [NSString stringWithFormat:@"%i", [self toNumber]];
+}
 
 @end

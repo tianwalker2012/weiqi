@@ -23,6 +23,7 @@
  */
 
 #import "SimpleAudioEngine.h"
+#import "Constants.h"
 
 @implementation SimpleAudioEngine
 
@@ -131,6 +132,8 @@ static CDBufferManager *bufferManager = nil;
 -(ALuint) playEffect:(NSString*) filePath pitch:(Float32) pitch pan:(Float32) pan gain:(Float32) gain
 {
 	int soundId = [bufferManager bufferForFile:filePath create:YES];
+    
+    EZDEBUG(@"play:%@, soundId:%i, kCDNoBuffer:%i", filePath, soundId, kCDNoBuffer);
 	if (soundId != kCDNoBuffer) {
 		return [soundEngine playSound:soundId sourceGroupId:0 pitch:pitch pan:pan gain:gain loop:false];
 	} else {
@@ -145,6 +148,7 @@ static CDBufferManager *bufferManager = nil;
 -(void) preloadEffect:(NSString*) filePath
 {
 	int soundId = [bufferManager bufferForFile:filePath create:YES];
+    EZDEBUG(@"Preload:%@, soundID:%i, CDNoBuffer:%i",filePath, soundId, kCDNoBuffer);
 	if (soundId == kCDNoBuffer) {
 		CDLOG(@"Denshion::SimpleAudioEngine sound failed to preload %@",filePath);
 	}

@@ -26,4 +26,30 @@ EZDEBUG(xx, ##__VA_ARGS__); \
 #define EZDEBUG(xx, ...)  ((void)0)
 #endif // #ifdef DEBUG
 
+typedef void (^ EZOperationBlock)();
+
+//Why add this, seems 
+typedef enum {
+    kAudioManagerUninitialized=0,
+    kAudioManagerFailed=1,
+    kAudioManagerInitializing=2,
+    kAudioManagerInitialized=100,
+    kAudioManagerLoading=200,
+    kAudioManagerReady=300
+    
+} GameManagerSoundState;
+
+
+#define AUDIO_MAX_WAITTIME 1.0
+
+#define SFX_NOTLOADED NO
+#define SFX_LOADED YES
+
+#define PLAYSOUNDEFFECT(...) \
+[[EZSoundManager sharedSoundManager] playSoundEffect:@#__VA_ARGS__]
+
+#define STOPSOUNDEFFECT(...) \
+[[EZSoundManager sharedSoundManager] stopSoundEffect:__VA_ARGS__]
+
+
 #endif
